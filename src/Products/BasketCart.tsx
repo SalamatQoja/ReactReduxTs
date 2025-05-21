@@ -28,7 +28,7 @@ const BasketCart: React.FC<Props> = ({ product }) => {
         <div>
             <div>
                 <div className="modal">
-                    <button onClick={handleRemove} className="btn-cart2">Udalit</button>
+                    <button onClick={handleRemove} className="btn-cart2">X</button>
                     <p>{product.name}</p>
                     <img src={product.image} alt={product.name} className="img2" />
                     <p>{product.price.toFixed(2)}$</p>

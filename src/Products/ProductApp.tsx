@@ -43,7 +43,7 @@ const ProductApp: React.FC = () => {
                     <BasketCart key={product.id} product={product} />
                 ))}
                 <div className="total-price">
-                    <span>Obshi summa: </span>
+                    <span>Vsego: </span>
                     <span>{totalCartPrice.toFixed(2)}</span>
                 </div>
             </div>

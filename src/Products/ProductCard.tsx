@@ -22,7 +22,7 @@ const ProductCard: React.FC<Props> = ({ product }) => {
         }}>
             <img src={product.image} alt={product.name} className="car" />
             <h3 className="productname">{product.name}</h3>
-            <button onClick={handleAdd}>Add Cart</button>
+            <button onClick={handleAdd} className="add-cart">Add Cart</button>
         </div>
     )
 }

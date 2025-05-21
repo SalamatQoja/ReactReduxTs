@@ -1,4 +1,4 @@
-.product{
+.product {
     width: 370px;
     height: 50px;
     background-color: #2f2c2c;
@@ -8,41 +8,41 @@
     border-radius: 3px;
 }
 
-.car{
+.car {
     width: 150px;
     height: 100px;
     border-radius: 5px;
 }
 
-.productname{
+.productname {
     font-size: 20px;
-    font-family:  "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: rgb(93, 87, 87);
 }
 
-.btn-cart{
+.btn-cart {
     border: none;
     background-color: #2e2a2a;
     color: blue;
     font-size: 18px;
     transition-delay: 3ms;
-    
+
 }
 
-.btn-cart:hover{
+.btn-cart:hover {
     background-color: rgb(62, 68, 62);
     color: rgb(168, 159, 147);
 }
 
-.nav-title{
-    font-family:"Roboto", sans-serif;
+.nav-title {
+    font-family: "Roboto", sans-serif;
     transform: translateY(4px);
     background-color: black;
     width: 820px;
     border-radius: 4px;
 }
 
-.modal{
+.modal {
     display: flex;
     flex-direction: row;
     width: 800px;
@@ -51,7 +51,7 @@
 
 }
 
-.nav-row{
+.nav-row {
     display: flex;
     flex-direction: row;
     width: 695px;
@@ -61,43 +61,87 @@
     transform: translateY(15px);
 }
 
-.container{
+.container {
     margin-top: 90px;
     margin-left: 60px;
     display: flex;
     flex-direction: column;
 }
 
-.btn-cart2{
-    width: 80px;
-    height: 50px;
+.btn-cart2 {
+    width: 43px;
+    height: 43px;
+    border-radius: 4px;
+    border: 1px solid red;
+    color: red;
+    margin-top: 10px;
 }
 
-.btn-total{
+.btn-total {
     width: 130px;
     height: 45px;
     display: flex;
     flex-direction: row;
     gap: 5px;
-    transform: translate(-20px, 7px);
+    transform: translate(-10px, 7px);
 }
 
-.btn-incres{
+.btn-incres {
     height: 45px;
+    padding: 9px 16px;
+    background-color: rgb(81, 81, 234);
+    color: white;
+    font-size: 19px;
+    border: none;
+    border-radius: 4px;
 }
 
-.btn-decres{
+.btn-incres:hover{
+    background-color: rgb(46, 46, 132);
+    cursor: pointer;
+}
+
+.btn-decres {
     height: 45px;
+    padding: 9px 16px;
+    background-color: rgb(81, 81, 234);
+    color: white;
+    font-size: 19px;
+    border: none;
+    border-radius: 4px;
 }
 
-.img2{
+.btn-decres:hover{
+    background-color: rgb(47, 47, 126);
+    cursor: pointer;
+}
+
+.add-cart {
+    padding: 7px 2px;
+    font-family: "Roboto", sans-serif;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(155, 170, 254);
+    color: rgb(43, 22, 22);
+    font-size: 16px;
+    
+}
+
+.add-cart:hover{
+    background-color: rgb(104, 104, 245);
+    color: white;
+    cursor: pointer;
+}
+
+
+.img2 {
     width: 100px;
     height: 60px;
     border-radius: 4px;
     transform: translateX(10px);
 }
 
-.total-price{
+.total-price {
     margin-top: 30px;
     display: flex;
     flex-direction: row;
@@ -105,17 +149,17 @@
     justify-content: space-between;
 }
 
-span{
+span {
     font-size: 19px;
     font-family: "Roboto", sans-serif;
 }
 
-p{
+p {
     font-family: "Roboto", sans-serif;
     font-size: 19px;
 }
 
-.quantity{
+.quantity {
     padding: 12px 17px;
     background-color: blue;
     border-radius: 4px;
