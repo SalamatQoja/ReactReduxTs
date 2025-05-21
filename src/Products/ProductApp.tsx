@@ -53,7 +53,7 @@ const ProductApp: React.FC = () => {
         <div>
             <div className="product">
                 <nav className="nav-title">
-                    <button className="btn-cart">Products:</button>
+                    <button className="btn-cart">Products</button>
                     <button onClick={handleclick}
                         className="btn-cart">Carts: {cartItems.length}
                     </button>
