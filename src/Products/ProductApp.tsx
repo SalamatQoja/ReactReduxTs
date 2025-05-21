@@ -36,7 +36,7 @@ const ProductApp: React.FC = () => {
                     <p>Nazvaniye</p>
                     <p>Foto</p>
                     <p>Tsena</p>
-                    <p>Kolichestvo</p>
+                    <p>Kolichestvo.</p>
                     <p>Obshaya tsena</p>
                 </nav>
                 {cartItems.map((product) => (
