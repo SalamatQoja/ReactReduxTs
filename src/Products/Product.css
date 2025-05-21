@@ -1,0 +1,124 @@
+.product{
+    width: 370px;
+    height: 50px;
+    background-color: #2f2c2c;
+    color: blue;
+    margin-top: 80px;
+    margin-left: 60px;
+    border-radius: 3px;
+}
+
+.car{
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.productname{
+    font-size: 20px;
+    font-family:  "Roboto", sans-serif;
+    color: rgb(93, 87, 87);
+}
+
+.btn-cart{
+    border: none;
+    background-color: #2e2a2a;
+    color: blue;
+    font-size: 18px;
+    transition-delay: 3ms;
+    
+}
+
+.btn-cart:hover{
+    background-color: rgb(62, 68, 62);
+    color: rgb(168, 159, 147);
+}
+
+.nav-title{
+    font-family:"Roboto", sans-serif;
+    transform: translateY(4px);
+    background-color: black;
+    width: 820px;
+    border-radius: 4px;
+}
+
+.modal{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    justify-content: space-between;
+    margin-top: 19px;
+
+}
+
+.nav-row{
+    display: flex;
+    flex-direction: row;
+    width: 695px;
+    justify-content: space-between;
+    margin-left: 130px;
+    font-family: "Roboto", sans-serif;
+    transform: translateY(15px);
+}
+
+.container{
+    margin-top: 90px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-cart2{
+    width: 80px;
+    height: 50px;
+}
+
+.btn-total{
+    width: 130px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    transform: translate(-20px, 7px);
+}
+
+.btn-incres{
+    height: 45px;
+}
+
+.btn-decres{
+    height: 45px;
+}
+
+.img2{
+    width: 100px;
+    height: 60px;
+    border-radius: 4px;
+    transform: translateX(10px);
+}
+
+.total-price{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    justify-content: space-between;
+}
+
+span{
+    font-size: 19px;
+    font-family: "Roboto", sans-serif;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+}
+
+.quantity{
+    padding: 12px 17px;
+    background-color: blue;
+    border-radius: 4px;
+    color: white;
+    font-size: 19px;
+}
